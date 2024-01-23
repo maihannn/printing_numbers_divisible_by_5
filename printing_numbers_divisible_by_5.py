@@ -9,14 +9,14 @@ list_of_numbers = [10, 20, 33, 46, 55]
 
 # Check if the numbers are divisible by 5
 
-print ("Given list is ", list_of_numbers) 
-print ("Divisible by 5")
+print ("Given list is: ", list_of_numbers) 
+print ("Numbers that are divisible by 5:")
 
 for i in list_of_numbers:
     if (i % 5) == 0:
 
         # Printing numbers
-        print (i)
+        print ([i], end= " ")
     
 
 
